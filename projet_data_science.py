@@ -21,7 +21,7 @@ from sklearn import model_selection
 
 
 
-df = pd.read_csv('C:\\Users\\Maxime\\weather.csv')
+df = pd.read_csv('chemin vers le fichier csv')
 
 df = df.replace(['No', 'Yes'], [0, 1])#Remplace les No par 0 et les Yes par 1
 
